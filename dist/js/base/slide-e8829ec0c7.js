@@ -1,0 +1,1 @@
+define(["jquery","slidePlug"],function(i){var l={init:function(){i(".fullSlide").slide({titCell:".hd ul",mainCell:".bd ul",effect:"fold",autoPlay:!0,autoPage:!0,trigger:"click"})}};return{init:function(){l.init()}}});
